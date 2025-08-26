@@ -132,7 +132,7 @@ li { margin: 6px 0; }
   width: 120px;           
   height: 120px;
   border-radius: 60%;     
-  object-fit: center;      
+  object-fit: cover;      
   object-position: center;
   border: 2px solid #666;
   display: block;
