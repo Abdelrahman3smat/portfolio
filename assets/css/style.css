@@ -129,11 +129,13 @@ li { margin: 6px 0; }
 
 
 .hero-pic {
-  width: 120px;         
+  width: 120px;           /* adjust size */
   height: 120px;
-  border-radius: 75%;   
-  object-fit: cover;
-  border: 3px solid #666; 
-  margin-bottom: 15px;
+  border-radius: 50%;     /* makes it circular */
+  object-fit: cover;      /* zooms in to fit the circle */
+  object-position: center;/* keeps your face centered */
+  border: 3px solid #666;
+  display: block;
+  margin: 0 auto 15px auto; /* centers image above text */
 }
 
